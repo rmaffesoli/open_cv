@@ -163,7 +163,7 @@ class ARViewer(object):
         return img
 
 
-obj_path = '/Users/rmaffesoli/Documents/personal/openCV/marker.obj'
-template_file = '/Users/rmaffesoli/Documents/personal/openCV/marker_card_512.jpg'
+obj_path = '/Users/rmaffesoli/Documents/personal/learning/openCV/assets/models/marker.obj'
+template_file = '/Users/rmaffesoli/Documents/personal/learning/openCV/assets/images/marker_card_512.jpg'
 ARV = ARViewer(template_file, obj_path)
 ARV.run()
